@@ -1,0 +1,70 @@
+public static void main(String [] args)
+{
+
+}
+
+import java.util.Scanner;
+Scanner in = new Scanner(System.in);
+int num = in.nextInt();
+in.close();
+
+
+public class BankAccount
+{
+   double balance;
+
+   # default constructor
+   public BankAccount()
+   { 
+      balance = 100.00;
+   }
+
+
+   # bank account constructor
+   public BankAccount(double amount)
+   {
+      balance = amount;
+   }
+
+   # to string method
+   public String toString()
+   {
+      return "The balance is " + balance;
+   }
+}
+
+# convert String to int
+String s="200";  
+int i=Integer.parseInt(s); 
+
+# convert int to String
+int i=10;  
+String s=String.valueOf(i) #Now it will return "10"  
+
+# decalring array
+int intArray[];
+# allocating memory
+intArray = new int[20];
+# combining both
+int[] intArray = new int[20]; 
+
+
+# initializing arraylist
+List<Integer> nums = new ArrayList<Integer>();
+# to add
+nums.add(val);
+nus.get(0);
+
+# mapping
+Map<String, Integer> phoneBook = new HashMap<String, Integer>();
+
+# get value
+phoneBook.get(arr[0])
+# put value
+# put this number to name at arr[0]
+phoneBook.put(arr[0], Integer.parseInt(arr[1]));
+
+# headers
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
